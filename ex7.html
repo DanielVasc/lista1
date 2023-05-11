@@ -1,0 +1,19 @@
+<script>
+    const num1 = Number(prompt("me diga o primeiro numero numero").trim());
+    const num2 = Number(prompt("me diga o segundo numero").trim());
+    const num3 = Number(prompt("me diga o terceiro numero").trim());
+
+
+   if(num1 < num2 && num1 < num3){ 
+       document.write(`${num1} e menor que ${num2} e que ${num3}`);
+
+   }
+
+   else if(num2 < num1 && num2 < num3){
+       document.write(`${num2} é menor que ${num1} e que ${num3} `);
+   }
+
+   else{
+       document.write(`${num3} é menor que ${num1} e que ${num2} `);
+   }
+</script>

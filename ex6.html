@@ -1,0 +1,25 @@
+<script>
+    /*ra o aluno informar as notas que obteve nos três trimestres. Calcule a média e apresente a seguinte mensagem:
+- Se nota for menor que 4: Reprovado
+- Se nota for menor que 6: Exame
+- Se nota for acima de 6: Aprovad*/
+ 
+ const nota1 = Number(prompt("qual a sua nota no primeiro trimestre").trim());
+ const nota2 = Number(prompt("qual a sua nota no segundo trimestre").trim());
+ const nota3 = Number(prompt("qual a sua nota no terceiro trimestre").trim());
+
+ const soma = nota1 + nota2 + nota3
+ const result = soma / 3
+
+ 
+    if(result <= 4){
+        document.write("voce foi REPROVADO");
+
+ }
+    else if(result = 5){
+        document.write("voce foi convocado para o EXAME");
+ }
+    else{
+        document.write("voce foi APROVADO")
+    }
+</script>
